@@ -4,7 +4,7 @@ A lightweight, self-hosted internet speed monitor for Raspberry Pi.
 It runs periodic speed tests, stores results in a local SQLite database, and serves a simple web dashboard on your LAN.
 
 ---
-
+[🌐 Project Website](https://t3chiejack.github.io/PiSpeed/)
 ## ✨ Features
 
 - **Interval testing** (default every 15 minutes; configurable)
