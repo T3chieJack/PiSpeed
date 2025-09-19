@@ -151,3 +151,8 @@ See `LICENSE` for details.
 
 **Q:** Where is the dashboard?  
 **A:** Visit `http://<pi-ip>:1234` from your LAN.
+
+## Current Release
+
+**V1** is now available! This initial release of PiSpeed marks the start of the project.
+
