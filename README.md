@@ -171,3 +171,7 @@ A: Every 15 minutes by default (you can change this).
 
 **Q: Where do I find the dashboard?**  
 A: Visit `http://<pi-ip>:1234` from a device on the same network.
+
+## Current Release
+
+**V1** is now available! This initial release of PiSpeed marks the start of the project.
