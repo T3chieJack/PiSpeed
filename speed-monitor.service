@@ -1,0 +1,18 @@
+[Unit]
+Description=PiSpeed - Internet Speed Monitor
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=CHANGE_ME_TO_YOUR_USER
+WorkingDirectory=/home/CHANGE_ME_TO_YOUR_USER/PiSpeed
+Environment=PYTHONUNBUFFERED=1
+Environment=PORT=1234
+Environment=INTERVAL_SECONDS=900
+ExecStart=/home/CHANGE_ME_TO_YOUR_USER/PiSpeed/.venv/bin/python /home/CHANGE_ME_TO_YOUR_USER/PiSpeed/pispeed.py
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
