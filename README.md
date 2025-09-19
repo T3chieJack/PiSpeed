@@ -12,7 +12,7 @@ It runs periodic speed tests, stores results in SQLite, and serves a simple web 
 
 ## Installation
 ```bash
-git clone https://github.com/YOURUSERNAME/PiSpeed.git
+git clone https://github.com/T3chieJack/PiSpeed.git
 cd PiSpeed
 python3 -m venv .venv
 source .venv/bin/activate
