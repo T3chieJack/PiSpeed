@@ -1,18 +1,25 @@
 # PiSpeed
 
-Lightweight, self-hosted internet speed monitor for Raspberry Pi. Runs periodic tests, stores results in SQLite, and serves a local web dashboard.
+**PiSpeed** is a lightweight, self-hosted internet speed monitor for Raspberry Pi.  
+It runs periodic speed tests, stores the results in a SQLite database, and serves a local web dashboard.
 
-- 🔁 Interval testing (default every 15 minutes)
-- 💾 Stores to `speed_results.db` (SQLite)
-- 📈 Dashboard at `http://<pi-ip>:1234`
+---
+
+## ✨ Features
+- 🔁 Interval testing (default every 15 minutes, configurable)
+- 💾 Stores results in `speed_results.db` (SQLite)
+- 📈 Dashboard available at `http://<pi-ip>:1234`
 - ⚙️ Configure via environment variables
+- 🐧 Easy systemd integration for background service
 
-## Quick start (Raspberry Pi)
+---
+
+## 📦 Installation (Raspberry Pi)
 
 ```bash
 sudo apt update
 sudo apt install -y python3 python3-venv python3-pip git
-git clone https://github.com/T3chieJack/PiSpeed.git
+git clone https://github.com/<YOUR_GITHUB_USERNAME>/PiSpeed.git
 cd PiSpeed
 python3 -m venv .venv
 source .venv/bin/activate
