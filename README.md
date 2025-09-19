@@ -159,7 +159,7 @@ This project includes a LICENSE file — see it for details.
 
 - CSV/JSON export of results
 - Configurable test servers/providers
-- Auth for dashboard (optional)
+- Auth for dashboard
 - Docker container
 
 ---
